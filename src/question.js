@@ -9,7 +9,7 @@ const Question = () => {
   let characters = 'abcdefghijklmnopqrstuvwxyz';
   let randomPos = parseInt(Math.random() * 26);
   let z = characters.substr(randomPos, 1);
-  let options = [];
+  // let options = [];
   return(
     <div>
       <h1>Question</h1>
